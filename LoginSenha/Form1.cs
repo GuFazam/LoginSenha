@@ -43,7 +43,7 @@ namespace LoginSenha
 
         private void Form2(object obj)
         {
-            // throw new NotImplementedException(); código criado pois apenas vamos criar o novo formulário e instância-lo
+            // throw new NotImplementedException(); código criado pois apenas vamos chamar o novo formulário e instância-lo
             Application.Run(new Form2()); //está linha serve para abrir o Form2 após clicar no botão login
         }
     }
